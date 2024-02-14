@@ -7,10 +7,10 @@ class Program
         Console.WriteLine("Skriv in ett tal");
         double a = double.Parse(Console.ReadLine());
         Console.WriteLine("Skriv in ett tal");
-        double b = double.Parse(Console.ReadLine());
+        int b = double.Parse(Console.ReadLine());
         Console.WriteLine(" talet "+a+" upphöjt med "+b+" = "+ potens(a,b));
     }
-    static double potens(double a, double b)
+    static double potens(double a, int b)
     {
         double p = a;
         for (double i = 1; i <b;i++)
